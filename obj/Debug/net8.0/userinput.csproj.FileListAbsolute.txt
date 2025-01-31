@@ -1,0 +1,14 @@
+D:\code3\userinput\bin\Debug\net8.0\userinput.exe
+D:\code3\userinput\bin\Debug\net8.0\userinput.deps.json
+D:\code3\userinput\bin\Debug\net8.0\userinput.runtimeconfig.json
+D:\code3\userinput\bin\Debug\net8.0\userinput.dll
+D:\code3\userinput\bin\Debug\net8.0\userinput.pdb
+D:\code3\userinput\obj\Debug\net8.0\userinput.GeneratedMSBuildEditorConfig.editorconfig
+D:\code3\userinput\obj\Debug\net8.0\userinput.AssemblyInfoInputs.cache
+D:\code3\userinput\obj\Debug\net8.0\userinput.AssemblyInfo.cs
+D:\code3\userinput\obj\Debug\net8.0\userinput.csproj.CoreCompileInputs.cache
+D:\code3\userinput\obj\Debug\net8.0\userinput.dll
+D:\code3\userinput\obj\Debug\net8.0\refint\userinput.dll
+D:\code3\userinput\obj\Debug\net8.0\userinput.pdb
+D:\code3\userinput\obj\Debug\net8.0\userinput.genruntimeconfig.cache
+D:\code3\userinput\obj\Debug\net8.0\ref\userinput.dll
