@@ -3,19 +3,21 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dotnet: 6.0 # Adjust the version based on your requirements
+      dotnet: 6.0  # Adjust as needed
     commands:
-      - echo Installing dependencies...
+      - echo "Navigating to project directory..."
+      - cd UserDetailsApp  # Change to your project folder if applicable
+      - echo "Restoring dependencies..."
       - dotnet restore
-  
+
   build:
     commands:
-      - echo Building the project...
+      - echo "Building the project..."
       - dotnet build --configuration Release
 
   post_build:
     commands:
-      - echo Build completed successfully!
+      - echo "Build completed successfully!"
 
 artifacts:
   files:
