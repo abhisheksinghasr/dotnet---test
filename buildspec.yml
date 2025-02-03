@@ -3,10 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dotnet: 6.0  # Adjust as neededs
+      dotnet: 6.0
     commands:
-      - echo "Navigating to project directory..."
-      - cd UserDetailsApp  # Change to your project folder if applicable
+      - echo "Checking current directory..."
+      - echo %CD%
+      - echo "Listing contents..."
+      - dir
+      - echo "Attempting to navigate to UserDetailsApp..."
+      - IF EXIST UserDetailsApp (cd UserDetailsApp) ELSE (echo "Directory not found!" && exit /b 1)
       - echo "Restoring dependencies..."
       - dotnet restore
 
@@ -22,4 +26,4 @@ phases:
 artifacts:
   files:
     - "**/*"
-  base-directory: bin/Release
+  base-directory: UserDetailsApp\bin\Release  # Adjust if needed
