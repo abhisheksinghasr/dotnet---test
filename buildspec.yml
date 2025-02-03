@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dotnet: 6.0  # Adjust as needed
+      dotnet: 6.0  # Adjust as neededs
     commands:
       - echo "Navigating to project directory..."
       - cd UserDetailsApp  # Change to your project folder if applicable
